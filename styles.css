@@ -33,33 +33,55 @@ a {
   font-weight: bold;
 }
 
+p {
+  padding-bottom: 2%;
+}
 header {
   background-color: lightpink;
-  height: calc (100vh - 70px);
+  height: calc (100vh - 7px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3% 3% 3%;
+  padding: 0 3% 1% 3%;
 }
 .about-page {
   background-color: moccasin;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: 80vh;
   padding: 2%;
 }
 .laptop {
   width: 69vh;
-  padding-right: 3%;
+  padding: 3%;
 }
 .about-p {
-  font-size: 24px;
+  font-size: 170%;
   border: 6px dotted lightpink;
-  display: ruby;
-  padding: 4%;
+  display: flex;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.section__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-discord-page {
+#discord {
   background-color: lightpink;
+  height: 80vh;
+  padding-top: 3%;
+  align-items: center;
+}
+.discordpng {
+  width: 40vw;
+}
+.p-wrapper {
+  border: 7px dotted moccasin;
+  font-size: 4vh;
+}
+.p-wrap {
+  font-size: 2.5vw;
 }
